@@ -1,0 +1,53 @@
+name: bishnoi_shadibazar
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  pin_code_fields: ^7.3.0
+  flutter_rating_bar: ^4.0.0
+  country_pickers: ^2.0.0
+  outline_gradient_button: ^2.0.0+1
+  smooth_page_indicator: ^1.0.0+2
+  sms_autofill: ^2.0.0
+  dotted_border: 2.0.0+3
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Karla
+      fonts: 
+        - asset: assets/fonts/KarlaBold.ttf
+          weight: 700
+        - asset: assets/fonts/KarlaMedium.ttf
+          weight: 500
+        - asset: assets/fonts/KarlaRegular.ttf
+          weight: 400
+        - asset: assets/fonts/KarlaExtraBold.ttf
+          weight: 800
+    - family: Sora
+      fonts: 
+        - asset: assets/fonts/SoraSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SoraRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SoraBold.ttf
+          weight: 700
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
